@@ -3,7 +3,7 @@
 //   Copyright 2019 (c) Binary Enterprises Ltd. All rights reserved.
 // </copyright>
 // <summary>
-//  
+//   Converts a CSV file into a SQL FTS thesaurus file or vice versa (depending on extension of inputfile).
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 

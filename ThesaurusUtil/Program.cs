@@ -124,7 +124,7 @@ namespace BinaryEnterprises.ThesaurusUtil
                 if (checkedNames.Count > 1)
                 {
                     XElement expansion = new XElement(xNamespace + "expansion");
-                    foreach (var w in names)
+                    foreach (var w in checkedNames)
                     {
                         expansion.Add(new XElement(xNamespace + "sub", w.ToLower()));
                     }
